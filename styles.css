@@ -7,30 +7,31 @@
 }
 
 @font-face {
-    font-family: 'Raven Song';
-    src: url(Raven-Song-Font/Raven-Song.ttf);
+    font-family: 'Outfit';
+    src: url(https://fonts.google.com/specimen/Outfit);
     font-style:normal;
-    font-weight: 100;
+    font-size: 15px;
+}
+body {
+    background-color: var(--light-gray);
+}
+.main-container {
+    background-color: var(--white);
 }
 
-/*
-# Front-end Style Guide
+.QR {
+    width: 100px;
+    background-image: url(image-qr-code.png);
+}
 
-## Layout
+
+/*
+- Weights: 400, 700 
 
 The designs were created to the following widths:
 
 - Mobile: 375px
 - Desktop: 1440px
+*/
 
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700 */
 
