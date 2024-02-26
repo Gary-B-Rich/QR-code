@@ -3,9 +3,15 @@
     --light-gray: hsl(212, 45%, 89%);
     --gray-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
-    
+    /*color: var(--gray-blue);*/  
 }
 
+@font-face {
+    font-family: 'Raven Song';
+    src: url(Raven-Song-Font/Raven-Song.ttf);
+    font-style:normal;
+    font-weight: 100;
+}
 
 /*
 # Front-end Style Guide
