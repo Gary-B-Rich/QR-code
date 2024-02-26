@@ -16,6 +16,7 @@ body {
     background-color: var(--light-gray);
 }
 .main-container {
+    display: flex-column;
     background-color: var(--white);
 }
 
