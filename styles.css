@@ -16,13 +16,18 @@ body {
     background-color: var(--light-gray);
 }
 .main-container {
-    display: flex-column;
+    
     background-color: var(--white);
+    width: 30vw;
 }
 
 .QR {
-    width: 100px;
-    background-image: url(image-qr-code.png);
+    height: 150px;
+    width: 150px;
+    background: url(image-qr-code.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-clip:content-box;
 }
 
 
