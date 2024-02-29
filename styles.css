@@ -1,4 +1,7 @@
 /*  styles.css for QR-code  */
+* {
+    margin: 5px;
+}
 
 :root {  
     --white: hsl(0,0%, 100%);
@@ -14,25 +17,38 @@
     font-style:normal;
     font-size: 15px;
 }
+
+.header {
+    height: 20vh;
+}
 body {
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     background-color: var(--light-gray);
 }
 .main-container {
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    width: 30vw;
-    height: 50vh;
+    
+    align-items: center;
+    gap: 5px;
+    max-width: 225px;
 }
 
-.QR {
-    height: 150px;
-    width: 150px;
-    background: url(image-qr-code.png);
-    background-position: center center;
-    background-repeat:no-repeat;
-    background-clip:content-box;
+.QR {  
+    background-image: url(image-qr-code.png);
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 10px;
+    
 }
 
 
