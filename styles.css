@@ -11,13 +11,6 @@
     /*color: var(--gray-blue);*/  
 }
 
-@font-face {
-    font-family: 'Outfit';
-    src: url(Outfit-Regular.ttf);
-    font-style: normal;
-    font-size: 15px;
-}
-
 .header {
     height: 20vh;
 }
