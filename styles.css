@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'Outfit';
-    src: url(https://fonts.google.com/specimen/Outfit);
-    font-style:normal;
+    src: url(Outfit-Regular.ttf);
+    font-style: normal;
     font-size: 15px;
 }
 
@@ -51,14 +51,26 @@ body {
     
 }
 
+.firstText {
+    font-family: 'Outfit-Bold';
+    src: url(Outfit-Bold.ttf);
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px 6px 0px 15px;
+    text-align: center;
+    
+}
 
-/*
-- Weights: 400, 700 
+.secondText {
+    font-family: 'Outfit-Regular';
+    src: url(Outfit-Regular.ttf);
+    font-size: 13px;
+    text-align: center;  
+    font-weight: 400;
+    color: var(--gray-blue);
+    padding: 0px 5px 15px 10px;
+}
 
-The designs were created to the following widths:
 
-- Mobile: 375px
-- Desktop: 1440px
-*/
 
 
